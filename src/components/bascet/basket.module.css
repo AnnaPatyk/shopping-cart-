@@ -1,0 +1,26 @@
+.basketBlok {
+   display: flex;
+   flex-direction: column;
+}
+.basketProduct {
+   display: flex;
+   flex: 0 1 30%;
+   padding: 10px;
+   background-color: #038c8c;
+   border-radius: 8px;
+   box-shadow: 0px 0px 8px #f2cc85;
+   justify-content: space-between;
+}
+.basketProduct div {
+   flex: 0 1 50%;
+   display: flex;
+}
+.basketProduct span {
+   padding: 4px;
+   background-color: #f2cc85;
+   font-weight: 700;
+}
+.basketProduct button {
+   padding-block: 4px;
+   font-size: 18px;
+}
